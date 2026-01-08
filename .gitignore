@@ -1,0 +1,24 @@
+﻿# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Node / Wrangler ---
+**/node_modules/
+**/.wrangler/
+**/*.log
+**/.dev.vars
+**/wrangler.local.toml
+
+# --- Rust / Trunk / Wasm ---
+**/target/
+**/dist/
+**/.trunk/
+**/pkg/
+**/*.wasm.map
+
+# --- Secrets / env ---
+.env
+.env.*
+**/*.secret
