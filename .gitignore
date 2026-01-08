@@ -22,3 +22,10 @@ Thumbs.db
 .env
 .env.*
 **/*.secret
+# --- Local secrets / scratch ---
+worker/ebook-image-forge-key.txt
+worker/test.png
+worker/test.out
+worker/*.secret
+.env
+.env.*
